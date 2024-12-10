@@ -2,8 +2,8 @@
 > The only official places to download Beestrap are this GitHub repository. Any other websites offering downloads or claiming to be us are not controlled by us.
 
 <p align="center">
-    <img src="https://github.com/real-bery/beestrap/raw/main/Images/Beestrap-full-dark.png#gh-dark-mode-only" width="420">
-    <img src="https://github.com/real-bery/beestrap/raw/main/Images/Beestrap-full-light.png#gh-light-mode-only" width="420">
+    <img src="https://github.com/real-bery/beestrap/raw/main/Beestrap.png#gh-dark-mode-only" width="420">
+    <img src="https://github.com/real-bery/beestrap/raw/main/Beestrap.png#gh-light-mode-only" width="420">
 </p>
 
 <div align="center">
@@ -14,7 +14,6 @@
 [![Downloads][shield-repo-releases]][repo-releases]
 [![Version][shield-repo-latest]][repo-latest]
 [![Discord][shield-discord-server]][discord-invite]
-[![lol][shield-tenor-meme]][tenor-gif]
 
 </div>
 
