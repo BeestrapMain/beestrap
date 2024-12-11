@@ -1,6 +1,3 @@
-> [!CAUTION]
-> The only official places to download Beestrap are this GitHub repository. Any other websites offering downloads or claiming to be us are not controlled by us.
-
 <p align="center">
     <img src="https://github.com/real-bery/beestrap/raw/main/Beestrap.png#gh-dark-mode-only" width="420">
     <img src="https://github.com/real-bery/beestrap/raw/main/Beestrap.png#gh-light-mode-only" width="420">
