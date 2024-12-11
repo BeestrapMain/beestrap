@@ -1,6 +1,6 @@
 <p align="center">
-    <img src="https://github.com/real-bery/beestrap/raw/main/Beestrap.png#gh-dark-mode-only" width="420">
-    <img src="https://github.com/real-bery/beestrap/raw/main/Beestrap.png#gh-light-mode-only" width="420">
+    <img src="https://github.com/real-bery/beestrap/raw/main/BeestrapLogo.png#gh-dark-mode-only" width="420">
+    <img src="https://github.com/real-bery/beestrap/raw/main/BeestrapLogo.png#gh-light-mode-only" width="420">
 </p>
 
 <div align="center">
