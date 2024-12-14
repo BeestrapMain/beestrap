@@ -186,8 +186,8 @@ namespace Bloxstrap
 
             try
             {
-                Mutex.OpenExisting("Bloxstrap-Bootstrapper").Close();
-                App.Logger.WriteLine(LOG_IDENT, "Bloxstrap-Bootstrapper mutex exists, waiting...");
+                Mutex.OpenExisting("Beestrap-Bootstrapper").Close();
+                App.Logger.WriteLine(LOG_IDENT, "Beestrap-Bootstrapper mutex exists, waiting...");
                 SetStatus(Strings.Bootstrapper_Status_WaitingOtherInstances);
                 mutexExists = true;
             }
@@ -197,7 +197,7 @@ namespace Bloxstrap
             }
 
             // wait for mutex to be released if it's not yet
-            await using var mutex = new AsyncMutex(false, "Bloxstrap-Bootstrapper");
+            await using var mutex = new AsyncMutex(false, "Beestrap-Bootstrapper");
             await mutex.AcquireAsync(_cancelTokenSource.Token);
 
             _mutex = mutex;
@@ -549,7 +549,7 @@ namespace Bloxstrap
             // i don't like this, but there isn't much better way of doing it /shrug
             if (Process.GetProcessesByName(App.ProjectName).Length > 1)
             {
-                App.Logger.WriteLine(LOG_IDENT, $"More than one Bloxstrap instance running, aborting update check");
+                App.Logger.WriteLine(LOG_IDENT, $"More than one Beestrap instance running, aborting update check");
                 return false;
             }
 
@@ -583,7 +583,7 @@ namespace Bloxstrap
             try
             {
 #if DEBUG_UPDATER
-                string downloadLocation = Path.Combine(Paths.TempUpdates, "Bloxstrap.exe");
+                string downloadLocation = Path.Combine(Paths.TempUpdates, "Beestrap.exe");
 
                 Directory.CreateDirectory(Paths.TempUpdates);
 
@@ -1171,7 +1171,7 @@ namespace Bloxstrap
 
                         Frontend.ShowConnectivityDialog(
                             Strings.Dialog_Connectivity_UnableToDownload,
-                            String.Format(Strings.Dialog_Connectivity_UnableToDownloadReason, "[https://github.com/bloxstraplabs/bloxstrap/wiki/Bloxstrap-is-unable-to-download-Roblox](https://github.com/bloxstraplabs/bloxstrap/wiki/Bloxstrap-is-unable-to-download-Roblox)"),
+                            String.Format(Strings.Dialog_Connectivity_UnableToDownloadReason, "[https://github.com/beestrapmain/beestrap/wiki/Beestrap-is-unable-to-download-Roblox](https://github.com/beestrapmain/beestrap/wiki/Beestrap-is-unable-to-download-Roblox)"),
                             MessageBoxImage.Error,
                             ex
                         );
