@@ -7,7 +7,6 @@
 
 [![License][shield-repo-license]][repo-license]
 [![GitHub Workflow Status][shield-repo-workflow]][repo-actions]
-[![Crowdin][shield-crowdin-status]][crowdin-project]
 [![Downloads][shield-repo-releases]][repo-releases]
 [![Version][shield-repo-latest]][repo-latest]
 [![Discord][shield-discord-server]][discord-invite]
@@ -40,7 +39,6 @@ Once installed, Beestrap is added to your Start Menu, where you can access the m
 [shield-repo-releases]: https://img.shields.io/github/downloads/BeestrapMain/beestrap/latest/total?color=f6ff00
 [shield-repo-latest]:   https://img.shields.io/github/v/release/BeestrapMain/beestrap?color=f6ff00
 
-[shield-crowdin-status]: https://badges.crowdin.net/bloxstrap/localized.svg
 [shield-discord-server]: https://img.shields.io/discord/1316144065527545946?logo=discord&logoColor=white&label=discord&color=f6ff00
 
 [repo-license]:  https://github.com/BeestrapMain/beestrap/blob/main/LICENSE
